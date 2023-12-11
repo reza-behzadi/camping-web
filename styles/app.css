@@ -335,7 +335,9 @@ transition: all 250ms ease-in-out;
 
 .services{
   margin-top: -20rem;
-
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
 
 .service{
@@ -343,7 +345,7 @@ transition: all 250ms ease-in-out;
   background-color:var(--white);
   margin-bottom: 2rem;
   height: 26rem;
-  /* width: 36rem; */
+  width: 32rem;
   border-radius:2rem ;
   text-align: center;
   display: flex;
@@ -351,6 +353,7 @@ transition: all 250ms ease-in-out;
   align-items: center;
   justify-content: center;
   padding: 0 4rem;
+  flex-grow: 1;
 
 }
 
